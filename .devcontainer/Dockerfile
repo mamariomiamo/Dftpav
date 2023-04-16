@@ -9,7 +9,7 @@ RUN apt-get update && apt-get install -y git \
     && apt-get install -y wget
 
 ADD .tmux.conf /root/
-ADD cmake-3.26.3-linux-x86_64.tar.gz /root/
+# ADD cmake-3.26.3-linux-x86_64.tar.gz /root/
 # export PATH=/root/cmake-3.26.3-linux-x86_64/bin:$PATH
 # export CMAKE_PREFIX_PATH=/root/cmake-3.26.3-linux-x86_64:$CMAKE_PREFIX_PATH
 
